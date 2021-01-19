@@ -1,0 +1,28 @@
+div{
+    background-color: black;
+    margin: 5px;
+    color: black;
+    padding: 5px;
+}
+.container{
+    background-color: black;
+    width: 120px;
+    height: 360px;
+}
+.item{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.border-black{
+    border: 2px solid white;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: yellow;
+}
+#box3{
+    background-color:green;
+}
