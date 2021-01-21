@@ -16,5 +16,5 @@ table th{
     background: #b9a2f2;
 }
 #th{
-    border: 3px double grey;
+    border: 3px ridge lightgrey;
 }
