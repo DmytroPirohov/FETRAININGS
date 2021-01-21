@@ -12,3 +12,9 @@ table th{
     border-collapse:collapse;
     padding:5px;
     }
+.class1{
+    background:salmon;
+}
+.class2{
+    border: 1px double grey;
+}
