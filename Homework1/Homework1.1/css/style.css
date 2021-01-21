@@ -15,3 +15,6 @@ table th{
 .class1{
     background:salmon;
 }
+#th, td{
+    border: 2px double grey;
+}
