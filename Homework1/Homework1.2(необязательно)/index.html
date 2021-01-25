@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="Topblock">The World of Fruit</div>
+    <div id="Title">Fruit Survey</div>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td><label for="Name">Name</label></td>
+                <td><input type="name" name="Name" id="Name" placeholder="Name and Surname"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address</label></td>
+                <td><input type="Address" name="Address" id="Address" placeholder="city/street/zipcode"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="email" name="Email" id="Email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="How">How many pieces of fruit<br>do you eat per day?</label></td>
+                <td id="spisok">
+                    <p><input name="0" type="radio" value="1" checked>0</p>
+                    <p><input name="0" type="radio" value="0">1</p>
+                    <p><input name="0" type="radio" value="2">2</p>
+                    <p><input name="0" type="radio" value="More than 2">More than 2</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Fruit">My favourite fruit</label></td>
+                <td id="spisok"><select name="select" size="4" multiple>
+                        <option selected value="s1">Apple</option>
+                        <option value="s2">Banana</option>
+                        <option value="s3">Plum</option>
+                        <option value="s4">Pomegranate</option>
+                        <option value="s5">Kiwi</option>
+                        <option value="s6">Mango</option>
+                        <option value="s7">Melon</option>
+                        <option value="s8">Pineapple</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="Like">Would you like a<br>brochure?</label></td>
+                <td id="spisok1"><input type="checkbox" name="a" value="Yes"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="spisok1"><input type="submit"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
