@@ -1,0 +1,13 @@
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    color: white;
+}
+#two{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: red;
+}
