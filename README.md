@@ -20,7 +20,7 @@ To view the trainings performed in the online classroom, you can follow the link
 ---
 ## About homework
 
-The homeworks contains three links, which you can check below, and there is also a [landing page](http://127.0.0.1:5500/Homeworks/index.html) by going to which you will get access to all three works:
+The homeworks contains three links, which you can check below, and there is also a [landing page](http://localhost:52330/Homeworks/index.html) by going to which you will get access to all three works:
 
 | Homeworks | Links |About|
 | :------: | :------: | :------: |
